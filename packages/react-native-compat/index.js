@@ -1,7 +1,7 @@
 import { getApplicationModule } from "./module";
 
 // Polyfill TextEncode / TextDecode
-import "fast-text-encoding";
+import "text-encoding-polyfill";
 
 // Polyfill crypto.getRandomvalues
 import "react-native-get-random-values";
